@@ -1,0 +1,9 @@
+//TemplateView within view.py
+<hr>
+<a href="{% url 'tim:go-to-very' %}">very</a>
+<hr>
+{{data}}
+<hr>
+{{posts.name}}
+<hr>
+<a href="{% url 'tim:redirect-task' pk=posts.id %}">{{posts.name}}</a>
